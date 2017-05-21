@@ -131,6 +131,10 @@ a {
   color: #ffffff;
 }
 
+.allies-color {
+	color:#8019f0;
+}
+
 .black-bg {
   background: #231f20;
 }
@@ -143,9 +147,6 @@ a {
   background: #ffffff;
 }
 
-.purple-bg {
-	background: #6d3f96;
-}
 
 
 
