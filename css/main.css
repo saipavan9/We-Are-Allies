@@ -297,6 +297,26 @@ margin-top: 30px;
 .clear{
   clear: both;
 }
+
+.solutionStats{
+  padding-top:30px;
+  font-size:40px;
+  line-height:50px;
+  font-weight:bold;
+}
+#byNumbers{
+height: 200px;
+}
+ #ninety{
+   color: black;
+  font-size: 72px;
+ }
+
+ .thumbnailDisplay2{
+
+   height: 50px;
+   margin:50px 0 10px 0;
+ }
 /* ==========================================================================
    Mobile styles
    ========================================================================== */

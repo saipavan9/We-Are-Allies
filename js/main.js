@@ -18,4 +18,8 @@ $(document).scroll(function(){
         $('#navlogo').css("visibility","hidden");
     }
 });
+$('.counter').counterUp({
+  delay:10,
+  time:1500
+});
 });
