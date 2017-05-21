@@ -317,6 +317,22 @@ height: 200px;
    height: 50px;
    margin:50px 0 10px 0;
  }
+
+ #bag{
+height: 350px;
+ }
+
+ #celebrity{
+  height: 300px;
+ }
+
+ .titles{
+   padding-top:10px;
+   font-size: 14px;
+   font-weight: bold;
+ }
+
+
 /* ==========================================================================
    Mobile styles
    ========================================================================== */
