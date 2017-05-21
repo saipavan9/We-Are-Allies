@@ -5,4 +5,17 @@ $('.navbar-nav a').hover(function(){
 },function(){
   $(this).fadeTo("fast",1);
 });
+
+var a = $(".nav").offset().top;
+
+$(document).scroll(function(){
+    if($(this).scrollTop() > a)
+    {
+       $('#mainNav').css({"background":"black"});
+       $('#navlogo').css("visibility","visible");
+    } else {
+       $('#mainNav').css({"background":"transparent"});
+        $('#navlogo').css("visibility","hidden");
+    }
+});
 });
