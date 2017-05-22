@@ -416,11 +416,8 @@ input[type="text"].focus {
 }
 header{
 background-image: none;
+background-color: #8019f0
 }
-.heading{
-  color: black;
-}
-
 .mbr-figure img{
   width: 250px;
   height: 200px;
@@ -447,23 +444,27 @@ background-image: none;
   #unite2{
     display: none;
   }
-
+  header{
+  background-image: none;
+  background-color: #8019f0
+  }
+  #mainNav{
+    background: black;
+  }
+  #navlogo{
+    visibility: visible;
+  }
 }
-
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 991px) {
 
 }
 
-
-
 /* Desktops and laptops ----------- */
 @media (min-width: 992px) and (max-width: 1199px) {
 
 }
-
-
 
 /* Large screens ----------- */
 @media (min-width: 1200px) and (max-width: 3000px) {
