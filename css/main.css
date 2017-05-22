@@ -374,6 +374,63 @@ color: black;
   font-weight:bold;
   text-decoration: none;
 }
+
+#unite2{
+
+height: 370px;
+z-index: 10;
+position: relative;
+bottom: 300px;
+left: 300px;
+}
+
+.exten{
+  margin: 0;
+}
+
+.extend{
+  margin: 0;
+  padding: 30px 0 30px 50px;
+}
+
+#joinUs{
+  margin: 100px 0;
+}
+
+/* Text Box Styles */
+input[type="text"] {
+  width: 250px;
+  padding: 7px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+  margin-right:10px;
+  border-radius: 5px;
+}
+::-webkit-input-placeholder {
+  color: #A0A0A0;
+}
+input[type="text"]:focus,
+input[type="text"].focus {
+  outline: none;
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+}
+.btn{
+  padding:5px 20px;
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  background-color:#8019f0;
+  color: #ecf0f1;
+
+  transition: background-color .3s;
+}
+.btn:hover, .btn:focus {
+  background-color: #8019f0;
+}
+
+
 /* ==========================================================================
    Mobile styles
    ========================================================================== */
@@ -410,7 +467,7 @@ color: black;
 
   .fa-facebook{
 
-  text-align: left; 
+  text-align: left;
   }
 
 }
