@@ -116,44 +116,6 @@ a {
     margin-bottom: 100px !important;
 }
 
-
-/*-----------------Colors------------------*/
-
-.black {
-  color: #231f20;
-}
-
-.blue {
-  color: #70cbce;
-}
-
-.white {
-  color: #ffffff;
-}
-
-.allies-color {
-	color:#8019f0;
-}
-
-.black-bg {
-  background: #231f20;
-}
-
-.blue-bg {
-  background: #70cbce;
-}
-
-.white-bg {
-  background: #ffffff;
-}
-
-
-
-
-/* ==========================================================================
-   Nav Styles
-   ========================================================================== */
-
    .navbar {
        border: 0px solid rgba(0, 0, 0, 0);
        margin: auto;
@@ -200,7 +162,7 @@ a {
        border-color: transparent;
    }
 
-   #ally{
+#ally{
 
    border: 1px solid white;
 
@@ -239,37 +201,6 @@ header {
 .signin {
   padding-top: 9px;
 }
-
-
-#be-the-first {
-  background: url(../img/be-the-first-bg.jpg) #231f20 no-repeat center center fixed;
-  min-height: 300px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-hr.line {
-	width: 100%;
-	border: 2px solid;
-}
-
-.purple {
-	border-color: #6d3f96;
-	color: #6d3f96;
-}
-
-.blue {
-	border-color: #70cbce;
-	color: #70cbce
-}
-
-.yellow {
-	border-color: #fdc05d;
-	color: #fdc05d;
-}
-
 footer {
   background: #ffffff;
   padding: 40px 0px;
@@ -450,7 +381,12 @@ input[type="text"].focus {
 .collapsing, .in {background-color: white;}
 .collapsing ul li a, .in ul li a {color: black!important;}
 .collapsing ul li a:hover, .in ul li a:hover {color: #8019f0!important;}
-
+#mainNav{
+  background:black;
+}
+#navlogo{
+  visibility: visible;
+}
 
 .btn-wide {
   width: 100%;
@@ -460,9 +396,7 @@ input[type="text"].focus {
   letter-spacing: 0px;
 }
 
-#be-the-first {
-      background-attachment: scroll;
-  }
+
   #about{
     font-size: 16px !important;
     text-align: left !important;
@@ -472,6 +406,26 @@ input[type="text"].focus {
 
   text-align: left;
   }
+
+  #boston{
+    display: none;
+  }
+#unite2{
+  display: none;
+
+}
+header{
+background-image: none;
+}
+.heading{
+  color: black;
+}
+
+.mbr-figure img{
+  width: 250px;
+  height: 200px;
+
+}
 
 }
 
@@ -487,9 +441,11 @@ input[type="text"].focus {
 #about #who {
   text-align: center !important;
 }
-
-#be-the-first {
-      background-attachment: scroll;
+  #boston{
+    display: none;
+  }
+  #unite2{
+    display: none;
   }
 
 }
@@ -497,10 +453,6 @@ input[type="text"].focus {
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 991px) {
-
-#be-the-first {
-      background-attachment: scroll;
-  }
 
 }
 

@@ -6,6 +6,8 @@ $('.navbar-nav a').hover(function(){
   $(this).fadeTo("fast",1);
 });
 
+if(window.innerWidth > 762)
+{
 var a = $(".nav").offset().top;
 
 $(document).scroll(function(){
@@ -18,6 +20,8 @@ $(document).scroll(function(){
         $('#navlogo').css("visibility","hidden");
     }
 });
+console.log(window.innerWidth);
+}
 $('.counter').counterUp({
   delay:10,
   time:1500
